@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KP2KP Bungku</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- navbar start -->
+    <div class="navbar-fixed">
+      <nav class="indigo darken-4">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#!" class="brand-logo lime-text" >KP2KP Bungku</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="http://localhost/projektprofil/" class="lime-text">Home</a></li>
+                <li><a href="http://localhost/projektprofil/kontak.html" class="lime-text">Hubungi Kami</a></li>
+                <li><a href="https://www.pajak.go.id/" class="lime-text">pajak.go.id</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- navbar end -->
+    
+    <!-- sidenav start-->
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="http://localhost/projektprofil/" class="lime-text">Home</a></li>
+        <li><a href="http://localhost/projektprofil/kontak.html" class="lime-text">Hubungi Kami</a></li>
+        <li><a href="https://www.pajak.go.id/" class="lime-text">pajak.go.id</a></li>
+      </ul>
+      <!-- sidenav end -->
+
+    <!-- footer start -->
+    <section id="footer" class="footer">
+      <div class="card-panel indigo darken-4">
+        <div class="container indigo darken-4">
+          
+            <h5 class="center lime-text">Kontak KP2KP Bungku</h5>
+            <hr>
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="center lime-text">Alamat Kantor</h5>
+                <p class="white-text">Jl Trans Sulawesi, Desa Ipi, Kecamatan Bungku Tengah, Kabupaten Morowali, Provinsi Sulawesi Tengah 94973</p>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.0053132517023!2d121.94649691467201!3d-2.5051253981745614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d9a8da14558409b%3A0x59b076651aeeecc4!2sKP2KP%20Bungku!5e0!3m2!1sen!2sid!4v1656771035804!5m2!1sen!2sid"
+                  width="400"
+                  height="400"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+              <div class="center col m6 white-text">
+                <h5 class="lime-text">Jam Pelayanan Kantor</h5>
+                <h6>Senin : 8:00 - 16:00</h6>
+                <h6>Selasa : 8:00 - 16:00</h6>
+                <h6>Rabu : 8:00 - 16:00</h6>
+                <h6>Kamis : 8:00 - 16:00</h6>
+                <h6>Jumat : 8:00 - 16:00</h6>
+                <hr />
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="lime-text">Tentang Kami</h5>
+                <ul>
+                  <a href="https://www.facebook.com/kp2kpbungku" class="fa fa-facebook"></a>
+                  <a href="https://twitter.com/pajakbungku" class="fa fa-twitter"></a>
+                  <a href="https://www.instagram.com/pajakbungku" class="fa fa-instagram"></a>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container white-text">
+            &copy kp2kp833 | 2022
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <!-- footer end -->
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+      const sidenav = document.querySelectorAll('.sidenav');
+      M.Sidenav.init(sidenav);
+
+      const slider = document.querySelectorAll('.slider');
+      M.Slider.init(slider, {
+        indicators: true,
+        height: 700,
+      });
+
+      const parallax = document.querySelectorAll('.parallax');
+      M.Parallax.init(parallax, );
+    </script>
+  </body>
+</html>

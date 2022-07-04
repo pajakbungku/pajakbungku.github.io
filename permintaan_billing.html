@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KP2KP Bungku</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- navbar start -->
+    <div class="navbar-fixed">
+      <nav class="indigo darken-4">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#!" class="brand-logo lime-text">KP2KP Bungku</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="http://localhost/projektprofil/" class="lime-text">Home</a></li>
+              <li><a href="http://localhost/projektprofil/kontak.html" class="lime-text">Hubungi Kami</a></li>
+              <li><a href="https://www.pajak.go.id/" class="lime-text">pajak.go.id</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- navbar end -->
+
+    <!-- sidenav start-->
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="http://localhost/projektprofil/" class="lime-text">Home</a></li>
+      <li><a href="http://localhost/projektprofil/kontak.html" class="lime-text">Hubungi Kami</a></li>
+      <li><a href="https://www.pajak.go.id/" class="lime-text">pajak.go.id</a></li>
+    </ul>
+    <!-- sidenav end -->
+
+    <!-- Layanan start -->
+    <div class="parallax-container">
+      <div class="parallax"><img src="img/djp.jpg" /></div>
+
+      <div class="container Layanan">
+        <div class="row">
+          <div class="center col m12">
+            <h4 class="center black-text">Permintaan Kode Billing</h4>
+            <a href="https://wa.me/6282293280134" class="waves-effect waves-light btn-large indigo darken-4"><i class="material-icons left">monetization_on</i>Pembuatan Kode Billing via Whatsapp</a>
+            <hr />
+            <a href="https://www.youtube.com/watch?v=zn00tvtRRdY&ab_channel=DirektoratJenderalPajak" class="waves-effect waves-light btn-large indigo darken-4"
+              ><i class="material-icons left">monetization_on</i>Pembuatan Kode Billing via DJP Online</a
+            >
+            <hr />
+            <a href="https://www.youtube.com/watch?v=zn00tvtRRdY&ab_channel=DirektoratJenderalPajak" class="waves-effect waves-light btn-large indigo darken-4"
+              ><i class="material-icons left">monetization_on</i>Tutorial Pembuatan Kode Billing via DJP Online</a
+            >
+            <hr />
+            <a href="https://play.google.com/store/apps/details?id=id.go.pajak.djp" class="waves-effect waves-light btn-large indigo darken-4"><i class="material-icons left">monetization_on</i>Pembuatan Kode Billing via Aplikasi M-Pajak</a>
+            <hr />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Layanan end -->
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+      const sidenav = document.querySelectorAll('.sidenav');
+      M.Sidenav.init(sidenav);
+
+      const slider = document.querySelectorAll('.slider');
+      M.Slider.init(slider, {
+        indicators: true,
+        height: 700,
+      });
+
+      const parallax = document.querySelectorAll('.parallax');
+      M.Parallax.init(parallax);
+    </script>
+  </body>
+</html>

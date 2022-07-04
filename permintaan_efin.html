@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KP2KP Bungku</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+  <!-- navbar start -->
+  <div class="navbar-fixed">
+    <nav class="indigo darken-4">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo lime-text" >KP2KP Bungku</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="http://localhost/projektprofil/" class="lime-text">Home</a></li>
+            <li><a href="Profil.html" class="lime-text">Profil</a></li>
+            <li><a href="Berita.html" class="lime-text">Berita</a></li>
+            <li><a href="http://localhost/projektprofil/" class="lime-text">Kontak</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- navbar end -->
+
+  <!-- sidenav start-->
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="http://localhost/projektprofil/" class="lime-text">Home</a></li>
+    <li><a href="Profil.html" class="lime-text">Profil</a></li>
+    <li><a href="Berita.html" class="lime-text">Berita</a></li>
+    <li><a href="http://localhost/projektprofil/ class="lime-text"">Kontak</a></li>
+  </ul>
+  <!-- sidenav end -->
+    <!-- About Us start -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col m6 light">
+            <a href="https://www.youtube.com/watch?v=zn00tvtRRdY&ab_channel=DirektoratJenderalPajak" class="waves-effect waves-light btn-large indigo darken-4"
+              ><i class="material-icons left">credit_card</i>Pembuatan Kode Billing via DJP Online</a
+            >
+            <hr />
+            <a href="https://play.google.com/store/apps/details?id=id.go.pajak.djp" class="waves-effect waves-light btn-large indigo darken-4"><i class="material-icons left">credit_card</i>Aplikasi M-Pajak</a>
+            <hr />
+            <a href="https://www.youtube.com/watch?v=zn00tvtRRdY&ab_channel=DirektoratJenderalPajak" class="waves-effect waves-light btn-large indigo darken-4"
+              ><i class="material-icons left">credit_card</i>Tutorial Pembuatan Kode Billing via DJP Online</a
+            >
+            <hr />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Us end -->
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+      const sidenav = document.querySelectorAll('.sidenav');
+      M.Sidenav.init(sidenav);
+
+      const slider = document.querySelectorAll('.slider');
+      M.Slider.init(slider, {
+        indicators: true,
+        height: 700,
+      });
+
+      const parallax = document.querySelectorAll('.parallax');
+      M.Parallax.init(parallax);
+    </script>
+  </body>
+</html>
